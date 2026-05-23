@@ -4,7 +4,7 @@
 
 \book {
   \score {
-    \trumpetOneStaff
+    \compressMMRests \trumpetOneStaff
     \layout {
       \context {
         \Score
