@@ -81,8 +81,11 @@ trumpetOneMusic = \transpose bes c' \relative c'' {
   \times 4/6 { des16-^\ff( ees des ees des ees) } f2-^\fermata |
 }
 
+\header {
+  poet = \markup \concat { 1 \super ère " TROMPETTE en SI" \super \flat }
+}
+
 trumpetOneStaff = \new Staff \with {
-  instrumentName = \markup \center-column { \line { "Trumpet 1" } \line { \concat { "in B" \super \flat } } }
   midiInstrument = "trumpet"
 } <<
   \outline

@@ -88,8 +88,11 @@ trumpetThreeMusic = \transpose bes c' \relative c' {
   \times 4/6 { f16\ff( ges f ges f ges) } aes2-^\fermata |
 }
 
+\header {
+  poet = \markup \concat { 3 \super ème " TROMPETTE en SI" \super \flat }
+}
+
 trumpetThreeStaff = \new Staff \with {
-  instrumentName = \markup \center-column { \line { "Trumpet 3" } \line { \concat { "in B" \super \flat } } }
   midiInstrument = "trumpet"
 } <<
   \outline
