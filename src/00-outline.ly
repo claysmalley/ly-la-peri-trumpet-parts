@@ -18,7 +18,7 @@ splitBeam = {
   copyright = \markup \concat {
     \italic "CC0, no rights reserved · last updated "
     \italic \date
-    " · github.com/claysmalley/ly-la-peri-trumpet-parts"
+    " · github.com/claysmalley/la-peri-parts"
   }
   tagline = ##f
 }
