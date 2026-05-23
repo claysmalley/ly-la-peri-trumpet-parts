@@ -81,7 +81,7 @@ trumpetOneMusic = \transpose bes c' \relative c'' {
 }
 
 trumpetOneStaff = \new Staff \with {
-  instrumentName = "Trumpet 1"
+  instrumentName = \markup \center-column { \line { "Trumpet 1" } \line { \concat { "in B" \super \flat } } }
   midiInstrument = "trumpet"
 } <<
   \outline
