@@ -42,7 +42,7 @@ trumpetTwoMusic = \transpose bes c' \relative c'' {
 
   ees2\mf( ges4 |
   f4)~ f8 r r4 |
-  ees2\mf( ges4 |
+  ees2( ges4 |
   f4)~ f8 r ges4( |
   f4)~ f8 r ges4( |
   f8) r r bes,-> ces->[ des->] |
