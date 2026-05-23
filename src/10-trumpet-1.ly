@@ -51,15 +51,16 @@ trumpetOneMusic = \transpose bes c' \relative c'' {
   R2.*3 |
   R2.\fermata |
 
-  cis2\mf(_\markup \italic "en dehors" a4) |
+  cis2(_\markup \concat { \dynamic mf \italic " en dehors" } a4) |
   \times 2/3 { aes8( g aes) } e4( c!) |
   cis'2( a4) |
   \times 2/3 { aes8( g aes) } e2 \breathe |
-  dis'2( b4) |
+  dis'2(_\markup \italic "cresc." b4) |
   \times 2/3 { bes8( a bes) } fis4( d) |
   dis'2( b4) |
-  \times 2/3 { bes8( a bes) } fis4 \times 2/3 { c'8( b c) } |
-  gis4 \times 2/3 { cis8( bis cis) } a4 |
+  \times 2/3 { bes8(_\markup \concat { \italic "più " \dynamic f } a bes) }
+  fis4 \times 2/3 { c'8( b c) } |
+  gis4_\markup \italic "cresc." \times 2/3 { cis8( bis cis) } a4 |
   d4-> ais-> \times 2/3 { b8->( cis-> d->) } |
 
   <<

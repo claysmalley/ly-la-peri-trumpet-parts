@@ -51,15 +51,16 @@ trumpetTwoMusic = \transpose bes c' \relative c'' {
   des2.->~ |
   des2~ des8\fermata r8 |
 
-  aes2\mf(_\markup \italic "en dehors" a4) |
+  aes2\mf( a4) |
   \times 2/3 { aes8( g aes) } e4( c!) |
   aes'2( a4) |
   \times 2/3 { aes8( g aes) } e2 \breathe |
-  ais2( b4) |
+  ais2(_\markup \italic "cresc." b4) |
   \times 2/3 { bes8( a bes) } fis4( d) |
   ais'2( b4) |
-  \times 2/3 { bes8( a bes) } fis4 \times 2/3 { c'8( b c) } |
-  gis4 \times 2/3 { cis8( bis cis) } a4 |
+  \times 2/3 { bes8(_\markup \concat { \italic "più " \dynamic f } a bes) }
+  fis4 \times 2/3 { c'8( b c) } |
+  gis4_\markup \italic "cresc." \times 2/3 { cis8( bis cis) } a4 |
   d4-> ais-> b-> |
 
   <<
@@ -72,7 +73,7 @@ trumpetTwoMusic = \transpose bes c' \relative c'' {
     }
     s2.\ff
   >>
-  bes8-> des-> c-> a!-> fis-> gis-> |
+  bes8-^ des-^ c-^ a!-^ fis-^ gis-^ |
   bes2-^~ bes8\fermata \breathe aes8-^ |
   f8-^ fis-^ g-^ a-^ bes-^ c-^ |
   des2.-^ |

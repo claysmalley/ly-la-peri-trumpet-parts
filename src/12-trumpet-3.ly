@@ -45,13 +45,13 @@ trumpetThreeMusic = \transpose bes c' \relative c' {
   aes8. aes32( bes) aes8-. aes,16[ des] des ees ees aes |
   aes8..( bes32-.) bes8-. aes-.
   \splitBeam
-  \times 2/3 { ces16-. ces-. ces-. }
-  \times 2/3 { bes16-. bes-. bes-. } |
+  \times 2/3 { ces16 ces ces }
+  \times 2/3 { bes16 bes bes } |
   \repeat unfold 2 {
     aes4~ aes8 r16. aes32
     \splitBeam
-    \times 2/3 { ces16-. ces-. ces-. }
-    \times 2/3 { bes16-. bes-. bes-. } |
+    \times 2/3 { ces16 ces ces }
+    \times 2/3 { bes16 bes bes } |
   }
   aes8-> ces16-> bes-> aes8-> bes-> ces-> des-> |
   ees2.-> |
@@ -63,11 +63,11 @@ trumpetThreeMusic = \transpose bes c' \relative c' {
   ees4( c g) |
   e'2( f4) |
   ees4( c2) \breathe |
-  fis2( g4) |
+  fis2(_\markup \italic "cresc." g4) |
   f4( d a) |
   fis'2( g4) |
-  f4( d) g( |
-  e4) aes( f) |
+  f4(_\markup \concat { \italic "più " \dynamic f } d) g( |
+  e4)_\markup \italic "cresc." aes( f) |
   a4-> fis-> f-> |
 
   <<
