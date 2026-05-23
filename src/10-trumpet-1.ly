@@ -72,7 +72,7 @@ trumpetOneMusic = \transpose bes c' \relative c'' {
     }
     s2.\ff
   >>
-  ees8-> des-> c-> a!-> fis-> gis-> |
+  ees8-^ des-^ c-^ a!-^ fis-^ gis-^ |
   bes2-^~ bes8\fermata \breathe aes8-^ |
   f8-^ fis-^ g-^ a-^ bes-^ c-^ |
   des2.-^ |
